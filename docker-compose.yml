@@ -1,0 +1,8 @@
+services:
+  noi-solar-ha-bridge:
+    build: .
+    image: noi-solar-ha-bridge:latest
+    container_name: noi-solar-ha-bridge
+    restart: unless-stopped
+    env_file:
+      - .env
