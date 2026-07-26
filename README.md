@@ -60,7 +60,7 @@ Set at minimum:
 ```env
 NOI_ACCOUNT=your-email@example.com
 NOI_PASSWORD=your-noi-solar-password
-NOI_NODE_ID=your-device-node-id
+NOI_NODE_ID=your-device-node-id (Normally the devices serial number)
 MQTT_HOST=homeassistant.local
 MQTT_USERNAME=your-mqtt-user
 MQTT_PASSWORD=your-mqtt-password
